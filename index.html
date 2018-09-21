@@ -40,6 +40,20 @@
                 text-align: center;
                 border: 1px solid rgb(125,125,125);
                 opacity:.8;
+            }.to-do {
+                background: rgb(255,220,220);
+                width: 45%;
+                height: 30%;
+                position: relative;
+                left: -27.25%;
+                top:-75px;
+                overflow-x: auto ;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:20px;
+                text-align: left;
+                border: 1px solid rgb(125,125,125);
+                opacity:.8;
             }
             p {
                 font-family:Sans-serif;
@@ -56,25 +70,73 @@
                 top:20%;
                 font-size:200%;
             }
+            .cbox {
+                float:right;
+                margin-right:0px;
+                text-align:right;
+            }
+            #to-do-h {
+                margin:0px;
+                padding:5px;
+            }
+            #check {
+                color:rgb(0,200,0);
+                font-weight:bold;
+            }
         </style>
     </head>
     <body>
 
         <h1 id="welcome">MShelCRVA.github.io</h1>        
         <div class="info">
-            <h1>What in cringe is this?</h1>
-            <p>So basically this is cool because I'm testing html on github. Soon enough this will be an actual website, so be excited.
-            In the future this will probably just be a hub website for canvas grades, khan, calendar, google
+            <h1>What is this site going to be?</h1>
+            <p>This will pretty much just be a page that has random stuff on it while im learning how to do html stuff. Expect stuff to look weird for a little bit. 
             </p>
         </div>
         <div class="khan">
             <h1>How to learn this?</h1>
             <p>
-            I learned about this stuff through ya boi<br>
+            Ya boi<br>
             <a href="https://khanacademy.org/computing/computer-programming/html-css"> Khan Academy CS</a><br>
-            They do a good job at explaining the stuff, but the narrator is kinda spooky with her naming and need to squish images.
+            does a good job explaining how to set up a html website, I would recommend following their tutorial thing. Watch out though because the narrator is a psychopath that likes to squish images.
             </p>
         </div>
-        
+        <div class="to-do">
+            <h1 id="to-do-h">Objectives</h1>
+    <table style="width:100%">
+  <tr>
+  </tr>
+  <tr>
+    <td>Khan decryption</td>
+    <td></td> 
+    <td><span class="cbox">[<span id="check">✓</span>]</span></td>
+  </tr>
+  <tr>
+    <td>make site look like roblox</td>
+    <td></td> 
+    <td><span class="cbox">[<span id="check">✓</span>]</span></td>
+  </tr>
+  <tr>
+    <td>khan html/css</td>
+    <td></td> 
+    <td><span class="cbox">[ - ]</span></td>
+  </tr>
+  <tr>
+    <td>take over the world</td>
+    <td></td> 
+    <td><span class="cbox">[ - ]</span></td>
+  </tr>
+  <tr>
+    <td>start a dance party</td>
+    <td></td> 
+    <td><span class="cbox">[ - ]</span></td>
+  </tr>
+  <tr>
+    <td>make website dynamic</td>
+    <td></td> 
+    <td><span class="cbox">[ - ]</span></td>
+  </tr>
+</table>
+        </div>
     </body>
 </html>
